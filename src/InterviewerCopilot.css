@@ -1,0 +1,98 @@
+.container {
+    background-color: #e5f7e5;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    max-width: none ;
+    margin: 0 auto;
+  }
+  
+  .header {
+    font-size: 24px;
+    color: #fefefe;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: #4caf50;
+    
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f8f1;
+    border: 1px solid #cde8cd;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sectionHeader {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dropdownIcon {
+    font-size: 16px;
+  }
+  
+  .questionsContainer {
+    background-color: #ffffff;
+    border: 1px solid #cde8cd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .noteHeader {
+    display: flex;
+    align-items: center;
+    background-color: #d3f4d3;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .noteIcon {
+    margin-right: 5px;
+  }
+  
+  .questionsList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .questionsList li {
+    margin-bottom: 10px;
+  }
+  
+  .checkMark {
+    color: #4caf50;
+    margin-right: 5px;
+  }
+  
+  .difficultyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .difficultyButton {
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .difficultyButton.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .settingsIcon {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
