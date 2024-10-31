@@ -52,17 +52,6 @@ body {
   resize: none;
 }
 
-/* .textarea {
-  flex: 1;
-  margin-left: 10px;
-  height: 80px;
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 5px;
-  font-size: 14px;
-  resize: none;
-} */
-
 .buttons {
   display: flex;
   justify-content: space-between;
